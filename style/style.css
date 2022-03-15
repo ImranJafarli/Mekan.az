@@ -15,8 +15,10 @@
 
 /* Start navbar */
 
-.header{
-    background-image: linear-gradient( #fff 0%, rgb(255, 192, 229) 50%);
+
+
+main{
+    background-image: linear-gradient( #fff 0%, rgb(255, 192, 229) 15%);
 }
 
 .logo img{
