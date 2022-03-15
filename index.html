@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo/logo1.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Mekan.az - Sizin alış-veriş məkanınız</title>
+</head>
+
+<body>
+
+    <!-- Start header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/logo/logo.png" alt="Logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">Ana Səhifə</a></li>
+                        <li><a href="#">Məhsullar</a></li>
+                        <li><a href="#">Əlaqə</a></li>
+                        <li><a href="#">Haqqımızda</a></li>
+                        <li><a href="#">Hesab</a></li>
+                    </ul>
+                </nav>
+                <i class="fa-solid fa-basket-shopping"></i>
+                <img src="./images/logo/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1 class="style">Məşqinizə yeni stil qatın !</h1>
+                    <p>Uğur həmişə böyüklüklə bağlı deyil. Söhbət ardıcıl hazırlıqdan gedir. Davamlı zəhmət uğur qazandırır.
+                        Uğur zamanla gələcək.</p>
+                    <a href="#" class="btn">Yeniliyi kəşf et </a>
+                </div>
+                <div class="col-2">
+                    <img src="./images/bg/image1.png" alt="sport">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <!-- Start categories section -->
+    <section>
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./images/category/category-1.jpg" alt="shoes">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/category/category-2.jpg" alt="shoes">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/category/category-3.jpg" alt="sport watch">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End categories section -->
+
+    <!-- Start products section -->
+    <section>
+        <div class="small-container">
+            <h2 class="product">Seçilmiş Məhsullar</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/products/product-1.jpg" alt="t-shirt">
+                    <h4>Qısaqol futbol köynəyi qırmızı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-2.jpg" alt="shoes">
+                    <h4>İdman ayaqqabısı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="price">AZN 75.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-3.jpg" alt="wear">
+                    <h4>İdman şalvarı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 25.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-4.jpg" alt="t-shirt">
+                    <h4>Qısaqol futbol köynəyi mavi</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 35.00</p>
+                </div>
+            </div>
+            <h2 class="product">Ən son məhsullar</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/products/product-5.jpg" alt="shoes">
+                    <h4>İdman ayaqqabısı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 45.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-6.jpg" alt="T-Shirt">
+                    <h4>Qısaqol futbol köynəyi qara</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="price">AZN 40.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-7.jpg" alt="socks">
+                    <h4>İdman corabı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 7.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-8.jpg" alt="Watch">
+                    <h4>Qol saatı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 55.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/products/product-9.jpg" alt="watch">
+                    <h4>Qol saatı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 95.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-10.jpg" alt="shoes">
+                    <h4>Qara idman ayaqqabısı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="price">AZN 40.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-11.jpg" alt="shoes">
+                    <h4>İdman ayaqqabısı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 45.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/products/product-12.jpg" alt="Wear">
+                    <h4>İdman şalvarı</h4>
+                    <div class="rating">
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i id="rate" class="fa-solid fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="price">AZN 35.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End products section -->
+
+    <!-- Start exclusive product section -->
+    <section>
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="mi" src="./images/bg/exclusive.png" alt="watch">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusivly Aviable on RedStore</p>
+                        <br>
+                        <h2>Smart Band 4</h2>
+                        <br>
+                        <p>The Mi Smart Band 4 features a 39.9% larger (than Mi band 3) AMOLED color full-touch
+                            display with adjustable brightness, so everything is clear as can be</p>
+                        <a class="btn" href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End exclusive product section -->
+
+    <!-- Start testimonials  -->
+    <section>
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit in rerum earum cupiditate
+                            quasi, id consectetur autem placeat vel fugit accusantium veritatis, ipsam repudiandae
+                            numquam?</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <img src="./images/user/user-1.png" alt="user">
+                        <h3>Sara Kərimova</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit in rerum earum cupiditate
+                            quasi, id consectetur autem placeat vel fugit accusantium veritatis, ipsam repudiandae
+                            numquam?</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <img src="./images/user/user-2.png" alt="user">
+                        <h3>Həsən Quliyev</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit in rerum earum cupiditate
+                            quasi, id consectetur autem placeat vel fugit accusantium veritatis, ipsam repudiandae
+                            numquam?</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <img src="./images/user/user-3.png" alt="user">
+                        <h3>Leyla Əliyeva</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End testimonials  -->
+
+
+    <!-- Start brands section -->
+    <section>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./images/logo/logo-godrej.png" alt="godrej">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo/logo-coca-cola.png" alt="coca cola">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo/logo-oppo.png" alt="oppo">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo/logo-paypal.png" alt="paypal">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/logo/logo-philips.png" alt="phillips">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End brands section -->
+
+
+    <!-- Start footer section -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Tətbiqetməni yüklə</h3>
+                        <p>Android və ios telefonları üçün tətbiqetməni yükləyin.</p>
+                        <div class="app-logo">
+                            <a href="#"><img src="./images/logo/app-store.png" alt="app_store"></a>
+                            <a href="#"><img src="./images/logo/play-store.png" alt="play_store"></a>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./images/logo/logo-white.png" alt="">
+                        <p>Məqsədimiz davamlı bir şəkildə
+                            çoxları üçün əlçatan olan idmanı zövqlü və faydalı hala gətirməkdir</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Faydalı linklər</h3>
+                        <ul>
+                            <li>Kuponlar</li>
+                            <li>Blog</li>
+                            <li>Qaytarma Siyasəti</li>
+                            <li>Haqqımızda</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Bizə Qoşul</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 by Imran Jafarli</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer section -->
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/66f8655eb0.js" crossorigin="anonymous"></script>
+    <!-- Js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
